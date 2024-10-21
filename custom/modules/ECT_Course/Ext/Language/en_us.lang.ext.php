@@ -1,0 +1,13 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ECT_COURSE_ECT_CLASS_FROM_ECT_CLASS_TITLE'] = 'Class';
+$mod_strings['LBL_ECT_COURSE_ECT_LECTURER_FROM_ECT_LECTURER_TITLE'] = 'Lecturer';
+$mod_strings['LBL_ECT_LECTURER_ECT_COURSE_FROM_ECT_LECTURER_TITLE'] = 'Lecturer';
+$mod_strings['LBL_ECT_STUDENTCLASS_ECT_COURSE_FROM_ECT_STUDENTCLASS_TITLE'] = 'Student - Class';
+$mod_strings['LBL_ECT_COURSE_ECT_STUDENTCLASS_FROM_ECT_STUDENTCLASS_TITLE'] = 'Student - Class';
+$mod_strings['LBL_ECT_COURSE_ECT_STUDENT_FROM_ECT_STUDENT_TITLE'] = 'Student';
+
+?>

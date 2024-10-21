@@ -1,0 +1,60 @@
+<?php
+// created: 2023-07-11 10:27:57
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'ect_course_ect_class_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'vname' => 'LBL_ECT_COURSE_ECT_CLASS_FROM_ECT_COURSE_TITLE',
+    'id' => 'ECT_COURSE_ECT_CLASSECT_COURSE_IDA',
+    'width' => '10%',
+    'default' => true,
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => 'ECT_Course',
+    'target_record_key' => 'ect_course_ect_classect_course_ida',
+  ),
+  'class_cost' => 
+  array (
+    'type' => 'int',
+    'vname' => 'LBL_CLASS_COST',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'class_id' => 
+  array (
+    'type' => 'varchar',
+    'vname' => 'LBL_CLASS_ID',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'class_startdate' => 
+  array (
+    'type' => 'date',
+    'vname' => 'LBL_CLASS_STARTDATE',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'ECT_Class',
+    'width' => '4%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'ECT_Class',
+    'width' => '5%',
+    'default' => true,
+  ),
+);

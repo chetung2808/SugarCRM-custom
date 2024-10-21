@@ -1,0 +1,35 @@
+<?php
+$module_name = 'ECT_Course';
+$listViewDefs [$module_name] = 
+array (
+  'COURSE_ID' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_COURSE_ID',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'COURSE_COST' => 
+  array (
+    'type' => 'int',
+    'label' => 'LBL_COURSE_COST',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'COURSE_EXTENDEDTIME' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_COURSE_EXTENDEDTIME',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '9%',
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+  ),
+);
+?>

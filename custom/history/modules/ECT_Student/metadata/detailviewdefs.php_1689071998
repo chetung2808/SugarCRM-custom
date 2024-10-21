@@ -1,0 +1,85 @@
+<?php
+$module_name = 'ECT_Student';
+$viewdefs [$module_name] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'student_expectedday',
+            'label' => 'LBL_STUDENT_EXPECTEDDAY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'student_id',
+            'label' => 'LBL_STUDENT_ID',
+          ),
+          1 => 
+          array (
+            'name' => 'ect_class_ect_student_name',
+            'label' => 'LBL_ECT_CLASS_ECT_STUDENT_FROM_ECT_CLASS_TITLE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'student_payment',
+            'label' => 'LBL_STUDENT_PAYMENT',
+          ),
+          1 => 
+          array (
+            'name' => 'ect_course_ect_student_1_name',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>
